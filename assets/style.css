@@ -2,6 +2,11 @@
 *{box-sizing:border-box}
 html{background:#f1f3f7}
 body{margin:0;background:#f1f3f7;color:#050505;font-family:Arial,Helvetica,sans-serif}
+.design-shell{position:relative;width:min(100%,694px);margin:0 auto;background:#fff;line-height:0}
+.design-image{display:block;width:100%;height:auto}
+.design-hotspot{position:absolute;z-index:5;left:9.8%;top:85.1%;width:80.5%;height:10.4%;border:0;border-radius:22px;background:transparent;cursor:pointer}
+.design-hotspot:focus-visible,.telegram-hotspot:focus-visible{outline:5px solid #2aa8dc;outline-offset:5px}
+.telegram-hotspot{position:absolute;z-index:5;left:14.4%;top:60.2%;width:71.5%;height:8.7%;border-radius:22px}
 .page{width:min(100%,694px);min-height:100vh;margin:0 auto;padding:20px 30px 58px;background:#fff;text-align:center;overflow:hidden}
 .logo{display:block;width:min(50%,348px);height:auto;margin:0 auto 34px}
 h1{margin:0;font-family:Impact,"Arial Narrow",sans-serif;font-size:clamp(28px,6.35vw,44px);font-weight:900;line-height:1.08;letter-spacing:.15px;white-space:nowrap}
@@ -14,7 +19,7 @@ h1{margin:0;font-family:Impact,"Arial Narrow",sans-serif;font-size:clamp(28px,6.
 .offer{position:relative;z-index:4;width:86%;margin:-2px auto 58px;padding:30px 18px 24px;border-radius:38px;background:rgba(203,203,203,.88);color:#fff;font-size:clamp(25px,4.8vw,34px);line-height:1.27}
 .cta,.submit,.telegram{display:flex;width:92%;min-height:130px;margin:0 auto;align-items:center;justify-content:center;border:0;border-radius:22px;background:linear-gradient(105deg,#102e58,#073a7d,#102e58);box-shadow:0 9px 0 #08234b;color:#fff;font-family:Impact,"Arial Narrow",sans-serif;font-size:clamp(30px,5.8vw,43px);letter-spacing:2px;text-decoration:none;cursor:pointer}
 .cta:active,.submit:active,.telegram:active{transform:translateY(4px);box-shadow:0 5px 0 #08234b}
-dialog{width:min(90%,520px);padding:0;border:0;border-radius:28px;box-shadow:0 26px 80px rgba(0,0,0,.3)}
+dialog{width:min(90%,520px);padding:0;border:0;border-radius:28px;box-shadow:0 26px 80px rgba(0,0,0,.3);line-height:normal}
 dialog::backdrop{background:rgba(2,17,42,.72);backdrop-filter:blur(3px)}
 dialog form{position:relative;padding:36px 34px;text-align:left}
 .close{position:absolute;right:16px;top:10px;border:0;background:transparent;font-size:36px;cursor:pointer}
