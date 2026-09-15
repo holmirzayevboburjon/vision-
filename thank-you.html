@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="uz">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="robots" content="noindex">
+  <title>Oxirgi qadam — Vision School</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%230b315f'/%3E%3Cpath d='M15 17h11l6 25 6-25h11L39 49H25z' fill='white'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <main class="thanks">
+    <div class="caps" aria-hidden="true">
+      <img src="assets/hat-1.webp" alt="">
+      <img src="assets/hat-2.webp" alt="">
+    </div>
+    <h1>OXIRGI QADAM QOLDI</h1>
+    <p>Darslikni qo‘lga kiritish uchun havola orqali Telegram botiga kiring!</p>
+    <div class="arrow" aria-hidden="true">↓</div>
+    <a class="telegram" id="telegramLink" href="#">TELEGRAM BOTGA O‘TISH</a>
+  </main>
+  <script src="assets/config.js"></script>
+  <script>
+    const link = document.getElementById('telegramLink');
+    const url = window.VISION_CONFIG?.telegramUrl || '#';
+    link.href = url;
+    link.addEventListener('click', (event) => {
+      if (url === '#') {
+        event.preventDefault();
+        alert('Telegram bot havolasi tez orada qo‘shiladi.');
+      }
+    });
+  </script>
+</body>
+</html>
