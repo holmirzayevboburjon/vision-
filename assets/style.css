@@ -4,7 +4,7 @@ html{background:#f1f3f7}
 body{margin:0;background:#f1f3f7;color:#050505;font-family:Arial,Helvetica,sans-serif}
 .design-shell{position:relative;width:min(100%,694px);margin:0 auto;background:#fff;line-height:0}
 .design-image{display:block;width:100%!important;max-width:100%;height:auto;object-fit:contain}
-.design-hotspot{position:absolute;z-index:5;left:9.8%;top:85.1%;width:80.5%;height:10.4%;border:0;border-radius:22px;background:transparent;cursor:pointer}
+.design-hotspot{position:absolute;z-index:5;left:9.8%;top:64.1%;width:80.5%;height:10.4%;border:0;border-radius:22px;background:transparent;cursor:pointer}
 .design-hotspot:focus-visible,.telegram-hotspot:focus-visible{outline:5px solid #2aa8dc;outline-offset:5px}
 .telegram-hotspot{position:absolute;z-index:5;left:14.4%;top:60.2%;width:71.5%;height:8.7%;border-radius:22px}
 .page{width:min(100%,694px);min-height:100vh;margin:0 auto;padding:20px 30px 58px;background:#fff;text-align:center;overflow:hidden}
